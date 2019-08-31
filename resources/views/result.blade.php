@@ -11,7 +11,7 @@
             font-weight: bold;
         }
         .result{
-            width: 60%;
+            width: 70%;
             margin: auto;
             padding: 10px 40px 40px;
             border-radius: 10px;
@@ -60,6 +60,19 @@
         .twitter{
             float: left;
             margin-top: -40px;
+
+        }
+        .twitter a{
+            display: inline-block;
+            margin-top: 10px;
+
+        }
+        .fa-twitter{
+            font-size: 24px;
+            color: #3880a2;
+        }
+        .fa-twitter:hover{
+            color:#a1cbef ;
         }
 
     </style>
@@ -111,8 +124,9 @@
             <span>نشكر لكم حسن تعاونكم معنا </span><br>
             <span>المدرب : سالم آل خازم القحطاني </span>
         </div>
-        <div class="twitter">
+        <div class="twitter text-center">
             <span>و أرحب بكم على حسابي على تويتر </span><br>
+           <a href=""> <i class="fa fa-twitter text-center" aria-hidden="true"></i></a>
 
         </div>
     </div>
