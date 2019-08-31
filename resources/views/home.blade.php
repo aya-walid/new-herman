@@ -1,9 +1,22 @@
-<!DOCTYPE html>
-<html>
-    <head>
+@extends('navbar')
+@section('title' , 'الأسئلة')
+@section('style')
+    @parent
+    <style>
 
-    </head>
-    <body>
+    </style>
+@endsection
 
-    </body>
-</html>
+
+@section('navbar')
+    @parent
+@endsection
+
+
+@section('container')
+
+@endsection
+
+
+@section('links')
+@endsection

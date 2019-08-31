@@ -1,32 +1,31 @@
-@extends('mainLayout')
-@yield('title' , "LOG IN")
+@extends('mainStructure')
+@section('title' , 'تسجيل دخول')
 @section('style')
+    @parent
     <style>
         body{
-            font-family: 'Cairo', sans-serif;
             background-color: #e9ecef;
         }
         .container{
-            width: 60%;
-
+            width: 50%;
             background-color: white;
             margin-top: 7%;
             padding: 0;
             border-radius: 15px;
         }
         .header-container{
-            background: url({{asset("images/brain-2062055.jpg")}}) no-repeat;
+            background: url({{asset("images/x.png")}}) no-repeat;
             background-size:  100% 100%;
-            height: 120px;
+            height: 130px;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
         }
         .header{
-            background-color: rgba(0,0,100,.1);
+            background-color: rgba(44, 72, 97, 0.17);
             width: 100%;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
-            height: 120px;
+            height: 130px;
         }
         .logIn-form{
             padding: 50px;
@@ -79,7 +78,4 @@
     </div>
 @endsection
 @section('links')
-    {{--bootstrap--}}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 @endsection

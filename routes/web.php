@@ -14,5 +14,8 @@
 Route::get('/', function () {
     return view('logIn');
 });
+Route::get('/result', function () {
+    return view('result');
+});
 
 Route::post('/home',"LoginController@store")->name('homePage');
